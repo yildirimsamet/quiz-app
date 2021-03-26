@@ -1,5 +1,5 @@
 module.exports = {
   env: {
-    API: "http://localhost:3000",
+    API: "https://quiz-app-bo57u5z2u-yildirimsamet.vercel.app",
   },
 };
