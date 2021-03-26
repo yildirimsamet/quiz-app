@@ -1,0 +1,37 @@
+@import "config";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  outline: none;
+  border: none;
+  list-style-type: none;
+}
+
+body {
+  height: 100vh;
+  background-image: url("/images/background.png");
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#__next {
+  height: 100vh;
+}
+.bg-green {
+  background: $green !important;
+  color: $white !important;
+  border-color: $green !important;
+}
+.bg-red {
+  color: $white !important;
+  background: $red !important;
+  border-color: $red !important;
+}
